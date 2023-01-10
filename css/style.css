@@ -29,6 +29,10 @@ h2 {
 	justify-content: space-between;
 }
 
+.shopping-cart__order {
+	width: 60%;
+}
+
 .cart-item {
 	display: flex;
 	align-items: center;
@@ -49,6 +53,7 @@ h2 {
 .cart-item__img-src {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 }
 
 .cart-item__content {
