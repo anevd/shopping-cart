@@ -1,6 +1,8 @@
 const total = document.querySelector(".purchase__total-price");
 let order = document.querySelectorAll(".cart-item__price_default");
 const button = document.querySelector(".button");
+let itemsCount = document.querySelector(".shopping-cart__count");
+itemsCount.innerHTML = order.length + " items";
 let discountCounter = 0;
 const discountMessage = document.createElement("div");
 let result = 0;
